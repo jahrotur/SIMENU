@@ -1,0 +1,126 @@
+*{
+    font-family:'Poppins', sans-serif;
+}
+
+body{
+    background:#f5f5f5;
+}
+
+.sidebar{
+    width:320px;
+    height:100vh;
+    background:#1F5168;
+    position:fixed;
+    left:0;
+    top:0;
+    border-radius:0 35px 35px 0;
+    padding:40px 25px;
+    overflow:auto;
+}
+
+.logo-area{
+    text-align:center;
+    color:white;
+    margin-bottom:60px;
+}
+
+.logo-icon{
+    font-size:70px;
+    margin-bottom:10px;
+}
+
+.logo-area h1{
+    font-size:55px;
+    font-weight:700;
+    color:#38B6D8;
+}
+
+.menu-item{
+    width:100%;
+    display:flex;
+    align-items:center;
+    gap:15px;
+    padding:18px 20px;
+    margin-bottom:10px;
+    color:white;
+    text-decoration:none;
+    border-radius:18px;
+    font-size:22px;
+    font-weight:500;
+}
+
+.menu-item:hover{
+    background:#7392A0;
+}
+
+.menu-item.active{
+    background:#7392A0;
+}
+
+.main-content{
+    margin-left:340px;
+    padding:40px;
+}
+
+.page-title{
+    font-size:60px;
+    font-weight:700;
+    color:#1F5168;
+}
+
+.page-subtitle{
+    font-size:24px;
+    color:#666;
+}
+
+.stats-card{
+    background:#E8F1F3;
+    border-radius:25px;
+    padding:30px;
+    min-height:150px;
+    display:flex;
+    align-items:center;
+}
+
+.main-card{
+    background:#E8F1F3;
+    border-radius:25px;
+    padding:30px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+}
+
+.section-title{
+    font-size:40px;
+    font-weight:700;
+    color:#1F5168;
+    margin-bottom:20px;
+}
+
+.search-input{
+    width:400px;
+    height:55px;
+    border-radius:15px;
+}
+
+.btn-add{
+    border:none;
+    background:#1F5168;
+    color:white;
+    padding:14px 25px;
+    border-radius:12px;
+    font-weight:600;
+}
+
+.badge-female{
+    background:#FFD9D9;
+    color:red;
+    padding:8px 16px;
+    border-radius:20px;
+}
+
+.badge-active{
+    background:#BFF2C8;
+    color:green;
+    padding:8px 16px;
+    border-radius:20px;
+}
